@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  game-2048:
+    build: .
+    container_name: web-game-2048
+    ports:
+      - "8080:80"
+    restart: always
